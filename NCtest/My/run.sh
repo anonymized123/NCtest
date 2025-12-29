@@ -1,0 +1,87 @@
+mkdir result_attn
+rm -r ./result_attn/apfd_0.csv
+rm -r ./result_attn/apfd_1.csv
+rm -r ./result_attn/apfd_2.csv
+rm -r ./result_attn/apfd_3.csv
+rm -r ./result_attn/apfd_4.csv
+python main_attn.py --seed 0 --dataset_name citeseer --model_name gat
+python main_attn.py --seed 0 --dataset_name citeseer --model_name gcn
+python main_attn.py --seed 0 --dataset_name citeseer --model_name graphsage
+python main_attn.py --seed 0 --dataset_name citeseer --model_name tagcn
+python main_attn.py --seed 0 --dataset_name cora --model_name gat
+python main_attn.py --seed 0 --dataset_name cora --model_name gcn
+python main_attn.py --seed 0 --dataset_name cora --model_name graphsage
+python main_attn.py --seed 0 --dataset_name cora --model_name tagcn
+python main_attn.py --seed 0 --dataset_name pubmed --model_name gat
+python main_attn.py --seed 0 --dataset_name pubmed --model_name gcn
+python main_attn.py --seed 0 --dataset_name pubmed --model_name graphsage
+python main_attn.py --seed 0 --dataset_name pubmed --model_name tagcn
+python main_attn.py --seed 0 --dataset_name coauthorcs --model_name gat
+python main_attn.py --seed 0 --dataset_name coauthorcs --model_name gcn
+python main_attn.py --seed 0 --dataset_name coauthorcs --model_name graphsage
+python main_attn.py --seed 0 --dataset_name coauthorcs --model_name tagcn
+python main_attn.py --seed 1 --dataset_name citeseer --model_name gat
+python main_attn.py --seed 1 --dataset_name citeseer --model_name gcn
+python main_attn.py --seed 1 --dataset_name citeseer --model_name graphsage
+python main_attn.py --seed 1 --dataset_name citeseer --model_name tagcn
+python main_attn.py --seed 1 --dataset_name cora --model_name gat
+python main_attn.py --seed 1 --dataset_name cora --model_name gcn
+python main_attn.py --seed 1 --dataset_name cora --model_name graphsage
+python main_attn.py --seed 1 --dataset_name cora --model_name tagcn
+python main_attn.py --seed 1 --dataset_name pubmed --model_name gat
+python main_attn.py --seed 1 --dataset_name pubmed --model_name gcn
+python main_attn.py --seed 1 --dataset_name pubmed --model_name graphsage
+python main_attn.py --seed 1 --dataset_name pubmed --model_name tagcn
+python main_attn.py --seed 1 --dataset_name coauthorcs --model_name gat
+python main_attn.py --seed 1 --dataset_name coauthorcs --model_name gcn
+python main_attn.py --seed 1 --dataset_name coauthorcs --model_name graphsage
+python main_attn.py --seed 1 --dataset_name coauthorcs --model_name tagcn
+python main_attn.py --seed 2 --dataset_name citeseer --model_name gat
+python main_attn.py --seed 2 --dataset_name citeseer --model_name gcn
+python main_attn.py --seed 2 --dataset_name citeseer --model_name graphsage
+python main_attn.py --seed 2 --dataset_name citeseer --model_name tagcn
+python main_attn.py --seed 2 --dataset_name cora --model_name gat
+python main_attn.py --seed 2 --dataset_name cora --model_name gcn
+python main_attn.py --seed 2 --dataset_name cora --model_name graphsage
+python main_attn.py --seed 2 --dataset_name cora --model_name tagcn
+python main_attn.py --seed 2 --dataset_name pubmed --model_name gat
+python main_attn.py --seed 2 --dataset_name pubmed --model_name gcn
+python main_attn.py --seed 2 --dataset_name pubmed --model_name graphsage
+python main_attn.py --seed 2 --dataset_name pubmed --model_name tagcn
+python main_attn.py --seed 2 --dataset_name coauthorcs --model_name gat
+python main_attn.py --seed 2 --dataset_name coauthorcs --model_name gcn
+python main_attn.py --seed 2 --dataset_name coauthorcs --model_name graphsage
+python main_attn.py --seed 2 --dataset_name coauthorcs --model_name tagcn
+python main_attn.py --seed 3 --dataset_name citeseer --model_name gat
+python main_attn.py --seed 3 --dataset_name citeseer --model_name gcn
+python main_attn.py --seed 3 --dataset_name citeseer --model_name graphsage
+python main_attn.py --seed 3 --dataset_name citeseer --model_name tagcn
+python main_attn.py --seed 3 --dataset_name cora --model_name gat
+python main_attn.py --seed 3 --dataset_name cora --model_name gcn
+python main_attn.py --seed 3 --dataset_name cora --model_name graphsage
+python main_attn.py --seed 3 --dataset_name cora --model_name tagcn
+python main_attn.py --seed 3 --dataset_name pubmed --model_name gat
+python main_attn.py --seed 3 --dataset_name pubmed --model_name gcn
+python main_attn.py --seed 3 --dataset_name pubmed --model_name graphsage
+python main_attn.py --seed 3 --dataset_name pubmed --model_name tagcn
+python main_attn.py --seed 3 --dataset_name coauthorcs --model_name gat
+python main_attn.py --seed 3 --dataset_name coauthorcs --model_name gcn
+python main_attn.py --seed 3 --dataset_name coauthorcs --model_name graphsage
+python main_attn.py --seed 3 --dataset_name coauthorcs --model_name tagcn
+python main_attn.py --seed 4 --dataset_name citeseer --model_name gat
+python main_attn.py --seed 4 --dataset_name citeseer --model_name gcn
+python main_attn.py --seed 4 --dataset_name citeseer --model_name graphsage
+python main_attn.py --seed 4 --dataset_name citeseer --model_name tagcn
+python main_attn.py --seed 4 --dataset_name cora --model_name gat
+python main_attn.py --seed 4 --dataset_name cora --model_name gcn
+python main_attn.py --seed 4 --dataset_name cora --model_name graphsage
+python main_attn.py --seed 4 --dataset_name cora --model_name tagcn
+python main_attn.py --seed 4 --dataset_name pubmed --model_name gat
+python main_attn.py --seed 4 --dataset_name pubmed --model_name gcn
+python main_attn.py --seed 4 --dataset_name pubmed --model_name graphsage
+python main_attn.py --seed 4 --dataset_name pubmed --model_name tagcn
+python main_attn.py --seed 4 --dataset_name coauthorcs --model_name gat
+python main_attn.py --seed 4 --dataset_name coauthorcs --model_name gcn
+python main_attn.py --seed 4 --dataset_name coauthorcs --model_name graphsage
+python main_attn.py --seed 4 --dataset_name coauthorcs --model_name tagcn
+python get_mean.py --path attn
